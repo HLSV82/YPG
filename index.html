@@ -11,50 +11,38 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="header__logo">
-        <img
-          class="header__logo-image"
-          src="./images/logo.jpg"
-          alt="Логотип Ямалпромгеофизика"
-        />
-    </a>
-      
+      <div class="header__top">
 
-      <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a href="#" class="header__link header__link_active">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">контакты</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">о нас</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address header__address">
-        <a href="tel:+73494210500">+7 349 421 05 00</a><br />
-        <a href="mailto:info@yapg.ru">info@yapg.ru</a>
-      <p>АО "Ямалпромгеофизика"<br />РФ, ЯНАО, Пуровский р-н, п.Уренгой,<br/> микрорайон 2, дом 12а.</p>
-      </address>
+      </div>
     </header>
     <main>
-      <section class="form__enter">
-        <form>
-          <label for="email" class="visually-hidden">Почта</label>
-          <input type="email" placeholder="me@example.com" id="email" />
-          <label for="password" class="visually-hidden">Пароль</label>
-          <input type="text" placeholder="Пароль" id="password" />
-          <label class="agree"><input type="checkbox" /> Запомнить меня</label>
-          <label class="reg"><a href="#">Регистрация</a></label>
-          <input class="button" type="submit" value="Войти" />
-        </form>
-      </section>
+    <section class="index__content">
+      <div class="index__content-left">
+      </div>
+      <div class="index__content-right">
+        <div class="input_form">
+          <form class="input__enter">
+            <label for="email" class="visually-hidden">Почта</label>
+            <input type="email" placeholder="me@example.com" id="email" />
+            <label for="password" class="visually-hidden">Пароль</label>
+            <input type="text" placeholder="Пароль" id="password" />
+            <label class="agree"><input type="checkbox" /> Запомнить меня</label>
+            <input class="button" type="submit" value="Войти" />
+          </form>
+        </div>
+        <div class="input-form-reg">
+            <form class="btn__reg">
+              <input class="button" type="submit" value="Регистрация" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
     </main>
+    </body>
 
     <footer class="footer">
       <p>© "ТриГада"</p>
       <a href="mailto:trigada@yandex.ru">trigada@yandex.ru</a>
     </footer>
-    

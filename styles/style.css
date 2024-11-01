@@ -1,58 +1,58 @@
 .header {
-  display: grid;
-  grid-template-columns: min-content 1fr 380px;
-  padding: 92px 24px 96px 24px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 135%;
-  letter-spacing: 0.01em;
-}
-
-.header__logo-image {
-  display: flex;
-  width: 148px;
-  height: 148px;
-}
-
-.address {
-  text-underline-position: under;
-  font-style: normal;
-}
-
-.header__address {
-  text-align: left;
-  padding-left: 41%;
-  padding-top: 1.5%;
-}
-
-.header__links-list {
-  display: flex;
-  justify-content:space-around;
-  gap: 130px;
-  padding-top: 10%;
-  padding-left: 10%;
+  width: 960px;
+  height: 49px;
+  background-color: rgb(105, 43, 43);
+  max-width: 100%;
+  margin-bottom: 16px;
+  margin-top: 16px;
   
 }
 
-.header__links-list-item {
-  list-style: circle;
-}
-.header__links-list-item:last-child{
-  gap: 0px;
+.index__content {
+  display: flex;
+  width: 960px;
+  height: 685px;
+  
+  }
+
+.index__content-left {
+  display: flex;
+  width: 624px;
+  height: 685px;
+  margin-right: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+ 
 }
 
-.header__links-list-item_no-bullit {
-  list-style: none;
+.index__content-right {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 685px;
 }
 
-.header__link_active {
-  text-decoration: none;
+.input_form {
+  display: flex;
+  width: 320px;
+  height: 350px;
+  padding: 32px 0 32px 35px;
+  border-radius: 20px;
+  background-color: rgb(1, 42, 13);
+
 }
 
-.form__enter {
-padding: 0 25% 0 25%;
-
+.input-form-reg {
+  display: block;
+  width: 320px;
+  margin-top: 16px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: rgb(1, 42, 13);
 }
+
+
+
 
 input:not([type=checkbox]) {
   display: block;
@@ -85,17 +85,18 @@ input[type=checkbox]:focus {
   outline-offset: 0;
 }
 
-form {
+form.input__enter {
   border: 1px solid #000;
-  padding: 45px;
+  padding: 45px 20px 45px 20px;
+  border-radius: 20px;
   background-color: rgb(1 68 29 / 0.6);
-  padding: 5% 32% 5% 32%
+ 
   
 }
 
 form .button {
   display: block;
-  width: 105%;
+  width: 100%;
   margin-bottom: 0;
   border: 1px solid #000;
   padding: 10px 65px;
@@ -105,7 +106,13 @@ form .button {
   font-size: inherit;
   text-transform: uppercase;
   background-color: #ffc802;
+  border-radius: 20px;
   
+}
+
+.form.btn__reg {
+  display: block;
+  width: 30px;
 }
 
 form .button:hover {
@@ -125,12 +132,7 @@ form .button:focus {
   padding-bottom: 15px;
 }
 
-.reg {
-  display: flex;
-  align-items: center;
-  padding-left: 30%;
-  padding-bottom: 20px;
-}
+
 
 .visually-hidden {
   position:absolute;
@@ -144,13 +146,26 @@ form .button:focus {
 
 }
 
+#email {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#password {
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+
+
 .footer {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 135%;
-  padding: 0 50px 90px;
-  text-align: center;
-  margin-top: 5%;
+  width: 960px;
+  height: 49px;
+  background-color: rgb(105, 43, 43);
+  max-width: 100%;
+  margin-top: 16px;
+  padding: 5px 430px;
+  color: aliceblue;
+ 
 }
